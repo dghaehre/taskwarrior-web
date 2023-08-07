@@ -1,0 +1,5 @@
+<ul>
+  {{range .}}
+    <li>{{printf "%.0f" .Urgency}} - {{.Description}} pro:{{.Project}}</li>
+  {{end}}
+</ul>
